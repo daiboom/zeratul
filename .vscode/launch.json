@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Debugger Go",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/backend/"
+    },
+    {
+      "name": "Launch Build Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/frontend/dist/"
+    },
+    {
+      "name": "Launch Debug Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "http://localhost:8081",
+      "webRoot": "${workspaceFolder}/frontend/"
+    }
+  ]
+}

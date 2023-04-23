@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    "typescriptreact"
+  ],
+  "editor.tabSize": 2,
+  "editor.renderControlCharacters": true,
+  "editor.largeFileOptimizations": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "diffEditor.ignoreTrimWhitespace": false
+}

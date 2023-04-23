@@ -19,5 +19,6 @@
   "editor.wordWrap": "on",
   "files.eol": "\n",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vetur.validation.template": false
 }

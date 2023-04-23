@@ -10,9 +10,22 @@ import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 
+// Styles
+import "@/styles/index.scss";
+
 const vuetify = createVuetify({
   components,
   directives,
+  defaults: {
+    global: {
+      ripple: true,
+      elevation: 0,
+      density: "compact",
+    },
+    a: {
+      textDecoration: "none",
+    },
+  },
 });
 
 const app = createApp(App);

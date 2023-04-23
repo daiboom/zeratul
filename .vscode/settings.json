@@ -20,5 +20,8 @@
   "files.eol": "\n",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "diffEditor.ignoreTrimWhitespace": false,
-  "vetur.validation.template": false
+  "vetur.validation.template": false,
+  "vetur.validation.style": false,
+  "vetur.validation.script": false,
+  "vetur.validation.templateProps": false
 }
